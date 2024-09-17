@@ -1,0 +1,169 @@
+- name: Faculty
+  list:
+    - full: true
+      list:
+        - name: Wilfredo E Lugo Beauchamp
+          image: ../../images/members/test_img.jpg
+          website: 
+          alt: 
+# - name: PostDocs
+#   list:
+#     - full: true
+#       list:
+#         - name: 
+#           image: 
+#           website: 
+#           alt:  
+#         - name: 
+#           image: 
+#           website: 
+#           alt:  
+# - name: PhD Students
+#   list:
+#     - full: true
+#       list:
+#         - name: 
+#           image: 
+#           website: 
+#           coadvisor: 
+#           coadvisorweb: 
+#           alt: 
+#         - name: 
+#           image: 
+#           website: 
+#           coadvisor: 
+#           coadvisorweb: 
+#           alt: 
+#         - name: 
+#           image: 
+#           website: 
+#           coadvisor: 
+#           coadvisorweb: 
+#           alt: 
+#         - name: 
+#           image: 
+#           website: 
+#           coadvisor: 
+#           coadvisorweb: 
+#           alt: 
+#         - name: 
+#           image: 
+#           website: 
+#           coadvisor: 
+#           coadvisorweb: 
+#           alt: 
+# - name: Master's Students
+#   list:
+#     - full: true
+#       list:
+#         - name: 
+#           image: 
+#           website: 
+#           alt:  
+#         - name: 
+#           image: 
+#           website: 
+#           alt:  
+#         - name: 
+#           image: 
+#           website: 
+#           alt:  
+#         - name: 
+#           image: 
+#           website: 
+#           alt:  
+- name: Undergraduate Students
+  list:
+    - full: true
+      list:
+        - name: Jacob M. Delgado López
+          image: ../../images/members/test_img.jpg
+          website: https://jacobdelgado1002.github.io/
+          alt:  
+        - name: Sebastián A. Cruz Romero
+          image: ../../images/members/test_img.jpg
+          website: 
+          alt:  
+        - name: Andrea P. Seda Hernández
+          image: ../../images/members/test_img.jpg
+          website: 
+          alt:          
+          - name: Miguel Giboyeaux Camilo
+          image: ../../images/members/test_img.jpg
+          website: 
+          alt:  
+        - name: Juan D. Guadalupe Rosado
+          image: ../../images/members/test_img.jpg
+          website: 
+          alt:  
+        - name: Ricardo A Morrel Rodriguez
+          image: ../../images/members/test_img.jpg
+          website: 
+          alt:  
+        - name: Sebastian O Espinosa del Rosario
+          image: ../../images/members/test_img.jpg
+          website: 
+          alt:  
+        # - name: TBA
+        #   image: 
+        #   website: 
+        #   alt:  
+        # - name: TBA
+        #   image: 
+        #   website: 
+        #   alt:  
+# - name: Collaborators
+#   list:
+#     - full: true
+#       list:
+#         - name: 
+#           image: 
+#           website: 
+#           alt:  
+#         - name: TBA
+#           image: 
+#           website: 
+#           alt:  
+# - name: PostDogs
+#   list:
+#     - full: true
+#       list:
+#         - name: 
+#           image: 
+#           alt: 
+- name: Alumni
+  list:
+    # - full: False
+    #   name: Master's students
+    #   list:
+    #     - name: 
+    #       image: 
+    #       website: 
+    #       alt:  
+    #     - name: 
+    #       image: 
+    #       website: 
+    #       alt:  
+    - full: False
+      name: Undergraduate students
+      list:
+        - name: Kenniel Torres
+          website: 
+          alt:  
+        - name: Christian Rodriguez
+          website: 
+          alt:  
+#    - name: PhD students
+#      full: False
+#      list:
+#        - name:
+#          website:
+#    - name: Master's students
+#      full: False
+#      list:
+#        - name:
+#          website:
+#    - name: Visiting students
+#      full: False
+#      list:
+#        - name:

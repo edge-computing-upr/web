@@ -1,0 +1,18 @@
+# Find and Delete these: ’
+- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque."
+  authors: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  year: 2024
+  type: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  venue: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  image: ../images/robogen-icml.png
+  id: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  projectpage: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  code: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  bibtex: |
+    @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
+  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque."
+  video: 
+  pdf: 
+  news: 
+  awards: 
+
