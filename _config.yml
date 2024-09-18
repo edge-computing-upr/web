@@ -20,7 +20,7 @@ author: Edge Computing Group
 ###############################################
 
 navbar-links:
-  Home: "https://jacobdelgado1002.github.io/edge-computing-upr.github.io/"
+  Home: "https://edge-computing-upr.github.io/web"
   Members: "pages/members"
   Publications: "pages/publications"
   Other:
