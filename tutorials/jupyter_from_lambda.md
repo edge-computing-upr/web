@@ -13,4 +13,4 @@
 
 Troubleshooting:
 - Port Usage:
-    If there are other person using that port (e.g. 8080) the step on option 2 will fail.  You need to select another port.  If this happens, the new port must be used on step 4.
+    If there are other person using that port (e.g. 8080) the step 2 will fail.  You need to select another port.  If this happens, the new port must be used on step 4.
