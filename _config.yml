@@ -24,6 +24,7 @@ navbar-links:
   Members: "pages/members"
   Publications: "pages/publications"
   Other:
+    - Tutorials: "pages/tutorials" 
     - Lab photos: "pages/lab_photos"
 
 ################
