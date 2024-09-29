@@ -1136,7 +1136,11 @@ table tr td, table tr {
 }
 
 .img-circle {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .img-resp {
