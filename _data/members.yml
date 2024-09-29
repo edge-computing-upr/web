@@ -77,31 +77,31 @@
     - full: true
       list:
         - name: Jacob M. Delgado López
-          image: ../../images/members/test_img.jpg
+          image: ../../images/members/jacob_delgado.jpg
           website: https://jacobdelgado1002.github.io/
           alt:  
         - name: Sebastián A. Cruz Romero
-          image: ../../images/members/test_img.jpg
-          website: 
+          image: ../../images/members/sebastian_cruz.jpg
+          website: https://linkedin.com/in/romerocruzsa/
           alt:  
         - name: Andrea P. Seda Hernández
-          image: ../../images/members/test_img.jpg
-          website: 
+          image: ../../images/members/andrea_seda.jpg
+          website: http://linkedin.com/in/andrea-seda
           alt:          
           - name: Miguel Giboyeaux Camilo
-          image: ../../images/members/test_img.jpg
-          website: 
+          image: ../../images/members/miguel_giboyeaux.jpg
+          website: https://www.linkedin.com/in/miguel-giboyeaux-camilo/
           alt:  
         - name: Juan D. Guadalupe Rosado
-          image: ../../images/members/test_img.jpg
-          website: 
+          image: ../../images/members/juan_guadalupe.jpg
+          website: https://www.linkedin.com/in/juan-d-guadalupe-rosado-00774b250/
           alt:  
         - name: Ricardo A Morrel Rodriguez
-          image: ../../images/members/test_img.jpg
-          website: 
+          image: ../../images/members/ricardo_morrel.jpg
+          website: http://linkedin.com/in/ricardo-a-morell-7831921b8
           alt:  
         - name: Sebastian O Espinosa del Rosario
-          image: ../../images/members/test_img.jpg
+          image: ../../images/members/sebastian_espinosa.jpg
           website: 
           alt:  
         # - name: TBA
