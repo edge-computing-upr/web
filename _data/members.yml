@@ -77,30 +77,37 @@
     - full: true
       list:
         - name: Jacob M. Delgado López
+          major: Computer Science and Engineering
           image: ../../images/members/jacob_delgado.jpg
           website: https://jacobdelgado1002.github.io/
           alt:  
         - name: Sebastián A. Cruz Romero
+          major: Computer Science and Engineering
           image: ../../images/members/sebastian_cruz.jpg
-          website: https://linkedin.com/in/romerocruzsa/
+          website: https://romerocruzsa.github.io/
           alt:  
         - name: Andrea P. Seda Hernández
+          major: Software Engineering
           image: ../../images/members/andrea_seda.jpg
           website: http://linkedin.com/in/andrea-seda
           alt:          
         - name: Miguel Giboyeaux Camilo
+          major: Software Engineering
           image: ../../images/members/miguel_giboyeaux.jpg
           website: https://www.linkedin.com/in/miguel-giboyeaux-camilo/
           alt:  
         - name: Juan D. Guadalupe Rosado
+          major: Software Engineering
           image: ../../images/members/juan_guadalupe.jpg
           website: https://www.linkedin.com/in/juan-d-guadalupe-rosado-00774b250/
           alt:  
         - name: Ricardo A Morell Rodriguez
+          major: Computer Science and Engineering
           image: ../../images/members/ricardo_morell.jpg
           website: http://linkedin.com/in/ricardo-a-morell-7831921b8
           alt:  
         - name: Sebastian O Espinosa del Rosario
+          major: Software Engineering
           image: ../../images/members/sebastian_espinosa.jpg
           website: 
           alt:  
