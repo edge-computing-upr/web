@@ -37,8 +37,8 @@ slim: true
                               {% else %}
                                   {{member.name}}
                               {% endif %}
-                              {% if member.major %}
-                                  <br><span style="font-size: smaller;">{{member.major}}</span>
+                              {% if member.role %}
+                                  <br><span style="font-size: smaller;">{{member.role}}</span>
                               {% endif %}
                               <!--{% if member.coadvisor %}
                                   <br>Co-advised by <a target="_blank" href="{{member.coadvisorweb}}">{{member.coadvisor}}</a>
