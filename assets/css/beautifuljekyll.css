@@ -1148,8 +1148,3 @@ table tr td, table tr {
   max-width: 400px;
   height: auto;
 }
-
-/* Prevent wrapping of dropdown items */
-.dropdown-menu li a {
-  white-space: nowrap; /* Stops text from wrapping to the next line */
-}

@@ -25,7 +25,7 @@ navbar-links:
   # Research: "pages/research"
   Publications: "pages/publications"
   Other:
-    - Tutorials: "pages/tutorials" 
+    - Guides: "pages/tutorials" 
     - Lab photos: "pages/lab_photos"
 
 ################

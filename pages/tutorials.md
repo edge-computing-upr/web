@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutorials
+title: Guides
 slim: true
 ---
 
