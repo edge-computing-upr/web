@@ -1,44 +1,111 @@
-# Guide for editing the Edge Computing Group Website UPRM
+# Edge Computing Group Website UPRM - Maintenance Guide
 
-## Author: Jacob M. Delgado López
+## Overview
+This comprehensive guide explains how to maintain and update the Edge Computing Group website at UPRM. It covers the essential files and folders you'll need to work with, along with detailed instructions for common tasks.
 
-Hello! This is a guide on how to edit the Website for future students. (Hopefully I didn't do too bad of a job and the website is still being used). 
+**Author:** Jacob M. Delgado López
 
-I will explain the folders and their purpose. I will also mention when I folder was NOT edited during the creation of the website. If they were not edited then it's safe to assume you won't hve to either, unless you want to get creative and risk the website exploding :P 
+## Directory Structure
 
-### Folders:
+### Core Data Folders
+- `_data/`
+  - Contains structured data in YAML format
+  - Key files:
+    - `members.yml`: Lab member information (names, roles, images)
+    - `publications.yml`: Research publications database
 
-_data = Contains yml files which are used to store stuctured data. For example, members.yml stores information about the lab members like names, roles, images, etc.
+### Template Components
+- `_includes/`
+  - HTML components for website elements
+  - Notable modifications:
+    - Footer template (modified to include UPRM logo)
 
-_includes = Contains html files for various aspects of the website. For example, the footer was edited to include the UPRM logo.
+### Layout and Content
+- `_layouts/`
+  - Base HTML templates for page structures
+  - ⚠️ No modifications needed for basic maintenance
 
-_layouts = Contains html files for establishing common layouts. This was not edited
+- `_posts/`
+  - Blog post storage (potential future News section)
+  - ⚠️ Currently unused
 
-_posts = used for blog posts. Can be leverage to add a News sections to the website. This was not edited.
+### Assets
+- `assets/`
+  - `css/`
+    - `beautifuljekyll.css`: Main styling file (customized)
+  - `img/`
+    - Original template images
+    - ⚠️ Preserve as reference
+  - `js/`
+    - Jekyll JavaScript files
+    - ⚠️ No modifications needed
 
-assets - CSS = Contains css files. beautifuljekyll is the global css and was edited for styling of the website
-         img = Contains images from original fork. This was not edited
-         js = Contains js for jekyll. This was not edited
+### Media Content
+- `images/`
+  - `lab_photos/`: Group photographs
+  - `members/`: Individual member portraits
 
-images - lab_photos = Contains group photos of the lab
-       - members = Contains images of the members from the lab. 
+### Content Pages
+- `pages/`
+  - Markdown files for navbar-linked pages
+  - Each file corresponds to a navigation menu item
 
-pages = Contains markdown files that have the structure of the pages in the navbar
+## Key Files for Regular Updates
 
-### Important files you will probably edit:
+### 1. Homepage (`index.html`)
+Commonly updated elements:
+- Home image
+- Welcome text
+- PI's contact information
 
-index.html = This the home page for the website. Here you can edit the photo that is displayed, text or the PI's email
+### 2. Configuration (`_config.yml`)
+Critical settings:
+- Navigation bar structure
+- Website color scheme
+- Global site parameters
 
-_config.yml = This file connects the whole website and makes it run. Here you configure the navbar to connect to other pages. Additonally, can also chnage the color Scheme of the website.
+### 3. Team Information (`members.yml`)
+To add a new member:
+1. Locate appropriate section (Postdoc/PhD/Master's)
+2. Copy an existing entry as template
+3. Update with new member's information:
+   ```yaml
+   - name: "Name"
+     role: "Role"
+     image: "path/to/image.jpg"
+     # Additional fields as needed
+   ```
 
-members.yml = This file contains all the informaiton regarding the members of the lab. To add a new member, go to the apropriate section (Postdoc, PhD, Master's, etc.), copy paste an existing entry, and fill in the appropriate information.
+### 4. Publications (`publications.yml`)
+To add new research:
+1. Copy existing entry format
+2. Update with publication details:
+   ```yaml
+   - title: "Paper Title"
+     authors: "Author List"
+     venue: "Conference/Journal"
+     year: YYYY
+     # Additional fields as needed
+   ```
 
-publications.yml = This file contains the publications made by the lab. To add a new publications, copy paste an existing entry and fill in the appropriate information.
+### 5. Lab Photos (`lab_photos.md`)
+- Displays chronological group photos
+- Add new photos in reverse chronological order
 
-lab_photos.md = This file displays photos of the lab throughout the years (maybe you can spot me)
+## Best Practices
+1. Always backup files before making changes
+2. Test changes locally before deploying
+3. Maintain consistent formatting in YAML files
+4. Use optimized images to maintain site performance
 
-You can assume that all the other files should be left as is. If you do want to edit them, be careful!
+## Support
+If you need assistance, contact:
+- Current lab administrator
+- Dr. Wilfredo for access permissions
 
-I hope this guide was helpful! If it was, say hello to Dr. Wilfredo and the rest of the lab for me. 
+## Legacy Note
+From the original author:
+> I hope this guide helps maintain and improve the website! Please say hello to Dr. Wilfredo and the lab members for me. Best wishes for your research!
 
-Wish you the best on your reseach!
+---
+*Last updated: December 2024*
