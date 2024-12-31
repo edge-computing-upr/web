@@ -7,21 +7,21 @@
           role: Assistant Professor
           website: https://www.linkedin.com/in/wilfredo-lugo-beauchamp-0b083838/
           alt: 
-        - name:
-          image:
-          role:
-          website:
-          alt: 
-        - name:
-          image:
-          role:
-          website:
-          alt:
-        - name:
-          image:
-          role:
-          website:
-          alt: 
+        # - name:
+        #   image:
+        #   role:
+        #   website:
+        #   alt: 
+        # - name:
+        #   image:
+        #   role:
+        #   website:
+        #   alt:
+        # - name:
+        #   image:
+        #   role:
+        #   website:
+        #   alt: 
 # - name: PostDocs
 #   list:
 #     - full: true
@@ -122,19 +122,45 @@
           image: ../../images/members/ricardo_morell.jpg
           website: http://linkedin.com/in/ricardo-a-morell-7831921b8
           alt:  
-        - name: Sebastian O Espinosa del Rosario
-          role: Software Engineering
-          image: ../../images/members/sebastian_espinosa.jpg
-          website: 
-          alt:  
-        # - name: TBA
+        # - name: Luis E Fernandez Ramirez
+        #   role: Computer Science and Engineering
+        #   image: 
+        #   website: 
+        #   alt:  
+        # - name: Carlos
+        #   image: 
+        #   website: 
+        #   alt:  
+        # - name: Alexis
+        #   image: 
+        #   website: 
+        #   alt:
+        # - name: Taimara
+        #   role: 
+        #   image: 
+        #   website: 
+        #   alt:  
+        # - name: Alfredo
+        #   image: 
+        #   website: 
+        #   alt:  
+        # - name: Onelle
+        #   image: 
+        #   website: 
+        #   alt:  
+        # - name: Jorge Rivera
+        #   role: 
+        #   image: 
+        #   website: 
+        #   alt:  
+        # - name: Fernando Sierra
         #   image: 
         #   website: 
         #   alt:  
         # - name: TBA
         #   image: 
         #   website: 
-        #   alt:  
+        #   alt:   
 # - name: Collaborators
 #   list:
 #     - full: true
@@ -174,6 +200,9 @@
           website: 
           alt:  
         - name: Christian Rodriguez
+          website: 
+          alt: 
+        - name: Sebastian O Espinosa del Rosario
           website: 
           alt:  
 #    - name: PhD students
