@@ -2,7 +2,7 @@
   list:
     - full: true
       list:
-        - name: Wilfredo E. Lugo Beauchamp
+        - name: Wilfredo E. Lugo-Beauchamp
           image: ../../images/members/wilfredo.jpg
           role: Assistant Professor
           website: https://www.linkedin.com/in/wilfredo-lugo-beauchamp-0b083838/
@@ -92,32 +92,32 @@
   list:
     - full: true
       list:
-        - name: Jacob M. Delgado López
+        - name: Jacob M. Delgado-López
           role: Computer Science and Engineering
           image: ../../images/members/jacob_delgado.jpg
           website: https://jacobdelgado1002.github.io/
           alt:  
-        - name: Sebastián A. Cruz Romero
+        - name: Sebastián A. Cruz-Romero
           role: Computer Science and Engineering
           image: ../../images/members/sebastian_cruz.jpg
           website: https://romerocruzsa.github.io/
           alt:  
-        - name: Andrea P. Seda Hernández
+        - name: Andrea P. Seda-Hernández
           role: Software Engineering
           image: ../../images/members/andrea_seda.jpg
           website: http://linkedin.com/in/andrea-seda
           alt:          
-        - name: Miguel Giboyeaux Camilo
+        - name: Miguel Giboyeaux-Camilo
           role: Software Engineering
           image: ../../images/members/miguel_giboyeaux.jpg
           website: https://www.linkedin.com/in/miguel-giboyeaux-camilo/
           alt:  
-        - name: Juan D. Guadalupe Rosado
+        - name: Juan D. Guadalupe-Rosado
           role: Software Engineering
           image: ../../images/members/juan_guadalupe.jpg
           website: https://www.linkedin.com/in/juan-d-guadalupe-rosado-00774b250/
           alt:  
-        - name: Ricardo A Morell Rodriguez
+        - name: Ricardo A. Morell-Rodriguez
           role: Computer Science and Engineering
           image: ../../images/members/ricardo_morell.jpg
           website: http://linkedin.com/in/ricardo-a-morell-7831921b8
@@ -202,7 +202,7 @@
         - name: Christian Rodriguez
           website: 
           alt: 
-        - name: Sebastian O Espinosa del Rosario
+        - name: Sebastian O. Espinosa-del-Rosario
           website: 
           alt:  
 #    - name: PhD students
