@@ -37,7 +37,6 @@ sudo reboot
 1. Check if docker is install and remove old versions (if any):
 ```bash
 dpkg -l | grep -i docker
-
 ```
 
 2. Install [Docker Engine](https://docs.docker.com/engine/):

@@ -4,7 +4,7 @@ title: Jupyter Notebooks from Lambda Servers
 slim: true
 ---
 
-1. Log-in into a Lmabda server using your credentials via ssh.
+1. Log-in into a Lambda server using your credentials via ssh.
 1. Once in the Lambda server execute the following command:
    
    ```jupyter notebook --no-browser --port=8080```
