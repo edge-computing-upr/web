@@ -1148,3 +1148,9 @@ table tr td, table tr {
   max-width: 400px;
   height: auto;
 }
+
+/* Ensure dropdown menu items do not wrap */
+.navbar-links .dropdown-menu li {
+  white-space: nowrap; /* Prevents text from wrapping */
+  padding: 10px 15px; /* Adjust padding for better spacing */
+}
