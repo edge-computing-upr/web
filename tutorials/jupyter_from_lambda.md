@@ -1,4 +1,8 @@
-## How to run Jupyter Notebooks from the Lambda Servers
+---
+layout: page
+title: Jupyter Notebooks from Lambda Servers
+slim: true
+---
 
 1. Log-in into a Lmabda server using your credentials via ssh.
 1. Once in the Lambda server execute the following command:

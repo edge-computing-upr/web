@@ -1,4 +1,8 @@
-# TensorRT Container Setup
+---
+layout: page
+title: TensorRT Container Setup
+slim: true
+---
 
 ## Prerequisites
 Before starting, ensure your system meets these requirements:
