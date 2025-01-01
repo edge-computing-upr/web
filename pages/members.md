@@ -4,61 +4,48 @@ title: Members
 slim: true
 ---
 
-
-<div class="row">
+<div class="container">
     {% for big_group in site.data.members %}
-        <div class="w-100"></div>
-            {% if big_group.website %}
-                <a target="_blank" href="{{big_group.website}}"><h1>{{ big_group.name }}</h1></a>
-            {% else %}
-                <h1>{{ big_group.name }}</h1>
-            {% endif %}
-        <div class="w-100"></div>
-        {% for group in big_group.list %}
-            {% if group.list.size > 0 %}
-                {% if group.name %}
-                    <div class="w-100"></div>
-                    {% if group.website %}
-                        <a target="_blank" href="{{group.website}}"><h2>{{ group.name }}</h2></a>
-                    {% else %}
-                        <h2>{{ group.name }}</h2>
-                    {% endif %}
-                    <div class="w-100"></div>
-                {% endif %}
-                {% if group.full %}
-                  <div class="row">
-                      {% for member in group.list %}
-                          <div class="col-xl-3 col-lg-3 col-md-4 text-center col-sm-6 col-xs-6">
-                              <a target="_blank" href="{{member.website}}">
-                                  <img class="img-circle" src="{{member.image}}" alt="{{member.alt}}">
-                              </a>
-                              {% if member.website %}
-                                  <a target="_blank" href="{{member.website}}">{{member.name}}</a>
-                              {% else %}
-                                  {{member.name}}
-                              {% endif %}
-                              {% if member.role %}
-                                  <br><span style="font-size: smaller;">{{member.role}}</span>
-                              {% endif %}
-                              <!--{% if member.coadvisor %}
-                                  <br>Co-advised by <a target="_blank" href="{{member.coadvisorweb}}">{{member.coadvisor}}</a>
-                              {% endif %}-->
-                          </div>
-                      {% endfor %}
-                  </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                {% if big_group.website %}
+                    <a target="_blank" href="{{ big_group.website }}"><h1 class="display-4">{{ big_group.name }}</h1></a>
                 {% else %}
-                   <ul>
-                        {% for member in group.list %}
-                            {% if member.website %}
-                                <li><a target="_blank" href="{{member.website}}"> {{member.name}} {% if member.new_role %} {{member.new_role}} {% endif %} </a></li>
-                            {% else %}
-                                <li><a> {{member.name}} {% if member.new_role %} {{member.new_role}} {% endif %} </a></li>
-                            {% endif %} 
-                        {% endfor %}
-                    </ul>
+                    <h1 class="display-4">{{ big_group.name }}</h1>
                 {% endif %}
-                <br>
-            {% endif %}
+            </div>
+        </div>
+        {% for group in big_group.list %}
+            <div class="row mt-4">
+                {% if group.name %}
+                    <div class="col-12 text-center">
+                        {% if group.website %}
+                            <a target="_blank" href="{{ group.website }}"><h2 class="h4">{{ group.name }}</h2></a>
+                        {% else %}
+                            <h2 class="h4">{{ group.name }}</h2>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            </div>
+            <div class="row">
+                {% for member in group.list %}
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 text-center mb-4">
+                        <a target="_blank" href="{{ member.website }}">
+                            <img class="img-fluid rounded-circle" src="{{ member.image }}" alt="{{ member.alt }}">
+                        </a>
+                        <div class="mt-2">
+                            {% if member.website %}
+                                <a target="_blank" href="{{ member.website }}">{{ member.name }}</a>
+                            {% else %}
+                                {{ member.name }}
+                            {% endif %}
+                            {% if member.role %}
+                                <br><span class="text-muted" style="font-size: smaller;">{{ member.role }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
         {% endfor %}
     {% endfor %}
 </div>
