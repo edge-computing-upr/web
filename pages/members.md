@@ -31,7 +31,7 @@ slim: true
                 {% for member in group.list %}
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 text-center mb-4">
                         <a target="_blank" href="{{ member.website }}">
-                            <img class="img-fluid rounded-circle" src="{{ member.image }}" alt="{{ member.alt }}">
+                            <img class="rounded-circle member-img" src="{{ member.image }}" alt="{{ member.alt }}">
                         </a>
                         <div class="mt-2">
                             {% if member.website %}

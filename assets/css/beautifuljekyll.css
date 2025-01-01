@@ -1135,13 +1135,16 @@ table tr td, table tr {
   border: transparent;
 }
 
-.img-circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
+/* Ensure uniform circular images without distortion */
+.member-img {
+  width: 120px;       /* Set a fixed width for all images */
+  height: 120px;      /* Match height to width for a circular shape */
+  object-fit: cover;  /* Crop the image rather than stretching */
+  border-radius: 50%; /* Enforce circular shape */
+  border: 2px solid #ddd; /* Optional: Add a border for aesthetics */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
 }
+
 
 .img-resp {
   width: 100%;
