@@ -1137,8 +1137,8 @@ table tr td, table tr {
 
 /* Ensure uniform circular images without distortion */
 .member-img {
-  width: 150px;       /* Set a fixed width for all images */
-  height: 150px;      /* Match height to width for a circular shape */
+  width: 175px;       /* Set a fixed width for all images */
+  height: 175px;      /* Match height to width for a circular shape */
   object-fit: cover;  /* Crop the image rather than stretching */
   border-radius: 50%; /* Enforce circular shape */
   border: 2px solid #ddd; /* Optional: Add a border for aesthetics */

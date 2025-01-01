@@ -30,9 +30,11 @@ slim: true
             <div class="row">
                 {% for member in group.list %}
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 text-center mb-4">
-                        <a target="_blank" href="{{ member.website }}">
-                            <img class="img-fluid rounded-circle member-img" src="{{ member.image }}" alt="{{ member.alt }}">
-                        </a>
+                        {% if member.image %}
+                            <a target="_blank" href="{{ member.website }}">
+                                <img class="img-fluid rounded-circle member-img" src="{{ member.image }}" alt="{{ member.alt }}">
+                            </a>
+                        {% endif %}
                         <div class="mt-2">
                             {% if member.website %}
                                 <a target="_blank" href="{{ member.website }}">{{ member.name }}</a>
