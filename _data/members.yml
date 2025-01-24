@@ -134,7 +134,8 @@
           alt:  
         - name: Alexis M. Santiago Rivera
           role: Software Engineering
-          image: ../../images/members/alexis_santiago.jpg
+          # image: ../../images/members/alexis_santiago.jpg
+          image: ../../images/members/test_img.jpg
           website: https://www.linkedin.com/in/alexis-santiago-rivera/
           alt:
         - name: Taimara P. Colón López
@@ -144,7 +145,8 @@
           alt:  
         - name: Alfredo D. Soto Vélez
           role: Computer Engineering
-          image: ../../images/members/alfredo_soto.jpg
+          # image: ../../images/members/alfredo_soto.jpg
+          image: ../../images/members/test_img.jpg
           website: https://www.linkedin.com/in/alfredo-d-soto-velez/
           alt:  
         - name: Onelle Lugo
