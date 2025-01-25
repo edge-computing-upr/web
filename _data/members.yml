@@ -4,7 +4,7 @@
       list:
         - name: Wilfredo E. Lugo-Beauchamp
           image: ../../images/members/wilfredo.jpg
-          role: Assistant Professor
+          role: Assistant Professor, Computer Science and Engineering Department
           website: https://www.linkedin.com/in/wilfredo-lugo-beauchamp-0b083838/
           alt: 
         # - name:
@@ -127,7 +127,7 @@
           image: ../../images/members/luis_fernandez.jpg
           website: https://www.linkedin.com/in/luis-fernandez-ramirez/
           alt:  
-        - name: Carlos Hernández
+        - name: Carlos S. Hernández Alvarado
           role: Software Engineering
           image: ../../images/members/carlos_hernandez.jpg
           website: https://www.linkedin.com/in/carloshernandez11/
@@ -149,12 +149,12 @@
           image: ../../images/members/test_img.jpg
           website: https://www.linkedin.com/in/alfredo-d-soto-velez/
           alt:  
-        - name: Onelle Lugo
+        - name: Onelle Lugo Rodríguez
           role: Software Engineering
           image: ../../images/members/onelle_lugo.jpg
           website: https://www.linkedin.com/in/onnellelugo/
           alt:  
-        - name: Jorge Rivera
+        - name: Jorge L. Rivera González
           role: Software Engineering and minor in Atmospheric Sciences and Meteorology
           image: ../../images/members/jorge_rivera.jpg
           website: https://www.linkedin.com/in/jorge-rivera-317b09170/
