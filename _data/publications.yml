@@ -5,55 +5,46 @@
   type: Conference 
   venue: ISICN2025
   image: ../images/members/test_img.jpg
-  id: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
-  projectpage: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
-  code: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  id: mpox2025
+  projectpage: 
+  code: 
   bibtex: |
     @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
-  abstract: "The rapid diagnosis of infectious diseases, such as monkeypox, is crucial for effective containment and treatment,
-             particularly in resource-constrained environments. This study presents an AI-driven diagnostic tool developed for deployment 
-             on the NVIDIA Jetson Orin Nano, leveraging the pre-trained MobileNetV2 architecture for binary classification. The model was 
-             trained on the open-source Monkeypox Skin Lesion Dataset, achieving a 93.07% F1-Score, which reflects a well-balanced 
-             performance in precision and recall. To optimize the model, the TensorRT framework was used to accelerate inference for FP32 
-             and to perform post-training quantization for FP16 and INT8 formats. TensorRT's mixed-precision capabilities enabled these 
-             optimizations, which reduced the model size, increased inference speed, and lowered power consumption by approximately a 
-             factor of two, all while maintaining the original accuracy. Power consumption analysis confirmed that the optimized models 
-             used significantly less energy during inference, reinforcing their suitability for deployment in resource-constrained 
-             environments. The system was deployed with a Wi-Fi Access Point (AP) hotspot and a web-based interface, enabling users to 
-             upload and analyze images directly through connected devices such as mobile phones. This setup ensures simple access and 
-             seamless connectivity, making the tool practical for real-world applications. These advancements position the diagnostic 
-             tool as an efficient, scalable, and energy-conscious solution to address diagnosis challenges in underserved regions, paving 
-             the way for broader adoption in low-resource healthcare settings."
+  abstract: "Rapid diagnosis of infectious diseases, such as monkeypox, is essential for effective containment and treatment, particularly
+             in resource-constrained settings. This study presents an AI-driven diagnos- tic tool optimized for deployment on the 
+             NVIDIA Jetson Orin Nano. Several pre-trained architectures were evaluated, with MobileNetV2 and DenseNet121 achieving the 
+             best F1-scores of 91.87% and 86.70%, respec- tively, on the Monkeypox Skin Lesion Dataset (MSLD and MSLD v2.0). TensorRT was 
+             used for model optimization, leveraging FP32, FP16, and INT8 precision formats to accelerate inference while reducing model 
+             size and power consumption. Results show up to 2.52x speedup and improved energy efficiency with minimal accuracy loss. 
+             The system was deployed with a Wi-Fi Access Point (AP) hotspot and a web-based interface, en- abling users to upload and 
+             analyze images directly through connected devices such as mobile phones. These advancements position the tool as a scalable, 
+             efficient, and low-power diagnostic solution for deployment in underserved healthcare settings."
   video: 
   pdf: 
   news: 
   awards: 
 
-- title: "Computer Vision for Real-Time Monkeypox Diagnosis on Embedded Systems"
-  authors: Jacob M. Delgado-López, Ricardo A Morell-Rodriguez, Sebastián O Espinosa-Del Rosario, Wilfredo E. Lugo-Beauchamp
+- title: "Model Compression for Skin Cancer Diagnosis"
+  authors: Jacob M. Delgado-López, Andrea P. Seda-Hernandez, Juan D. Guadalupe-Rosado, Luis E. Fernandez Ramirez, Miguel Giboyeaux-Camilo, Wilfredo E. Lugo-Beauchamp
   year: 2025
   type: Conference 
   venue: ISICN2025
   image: ../images/members/test_img.jpg
-  id: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
-  projectpage: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
-  code: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  id: engine2025
+  projectpage: 
+  code: 
   bibtex: |
     @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
-  abstract: "The rapid diagnosis of infectious diseases, such as monkeypox, is crucial for effective containment and treatment,
-             particularly in resource-constrained environments. This study presents an AI-driven diagnostic tool developed for deployment 
-             on the NVIDIA Jetson Orin Nano, leveraging the pre-trained MobileNetV2 architecture for binary classification. The model was 
-             trained on the open-source Monkeypox Skin Lesion Dataset, achieving a 93.07% F1-Score, which reflects a well-balanced 
-             performance in precision and recall. To optimize the model, the TensorRT framework was used to accelerate inference for FP32 
-             and to perform post-training quantization for FP16 and INT8 formats. TensorRT's mixed-precision capabilities enabled these 
-             optimizations, which reduced the model size, increased inference speed, and lowered power consumption by approximately a 
-             factor of two, all while maintaining the original accuracy. Power consumption analysis confirmed that the optimized models 
-             used significantly less energy during inference, reinforcing their suitability for deployment in resource-constrained 
-             environments. The system was deployed with a Wi-Fi Access Point (AP) hotspot and a web-based interface, enabling users to 
-             upload and analyze images directly through connected devices such as mobile phones. This setup ensures simple access and 
-             seamless connectivity, making the tool practical for real-world applications. These advancements position the diagnostic 
-             tool as an efficient, scalable, and energy-conscious solution to address diagnosis challenges in underserved regions, paving 
-             the way for broader adoption in low-resource healthcare settings."
+  abstract: "Skin cancer is one of the most common and preventable cancers, yet early detection remains challenging, especially in 
+             resource- limited settings with scarce specialized healthcare. This study develops an AI-driven diagnostic tool optimized 
+             for embedded systems to ad- dress this gap. Using transfer learning with MobileNetV2, the model was trained for multi-class 
+             classification of skin lesions and optimized with TensorRT for deployment on the NVIDIA Jetson Orin Nano. Evalua- tions 
+             focused on model size, inference speed, throughput, and power con- sumption, balancing performance with efficiency. 
+             The optimized model maintained an F1-score of 65% while significantly reducing model size and energy consumption. 
+             Despite not achieving state-of-the-art accuracy, this research prioritizes real-world feasibility, demonstrating A's 
+             poten- tial for accessible diagnostics in low-resource environments. The meth- ods presented extend beyond skin cancer 
+             detection, with applications in other medical and autonomous systems, highlighting the broader impact of AI-driven solutions 
+             on global healthcare accessibility."
   video: 
   pdf: 
   news: 
