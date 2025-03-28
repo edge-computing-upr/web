@@ -1,18 +1,60 @@
 # Find and Delete these: ’
-- title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque."
-  authors: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
-  year: 2024
-  type: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
-  venue: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
-  image: ../images/robogen-icml.png
+- title: "Computer Vision for Real-Time Monkeypox Diagnosis on Embedded Systems"
+  authors: Jacob M. Delgado-López, Ricardo A Morell-Rodriguez, Sebastián O Espinosa-Del Rosario, Wilfredo E. Lugo-Beauchamp
+  year: 2025
+  type: Conference 
+  venue: ISICN2025
+  image: ../images/members/test_img.jpg
   id: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
   projectpage: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
   code: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
   bibtex: |
     @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
-  abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque."
+  abstract: "The rapid diagnosis of infectious diseases, such as monkeypox, is crucial for effective containment and treatment,
+             particularly in resource-constrained environments. This study presents an AI-driven diagnostic tool developed for deployment 
+             on the NVIDIA Jetson Orin Nano, leveraging the pre-trained MobileNetV2 architecture for binary classification. The model was 
+             trained on the open-source Monkeypox Skin Lesion Dataset, achieving a 93.07% F1-Score, which reflects a well-balanced 
+             performance in precision and recall. To optimize the model, the TensorRT framework was used to accelerate inference for FP32 
+             and to perform post-training quantization for FP16 and INT8 formats. TensorRT's mixed-precision capabilities enabled these 
+             optimizations, which reduced the model size, increased inference speed, and lowered power consumption by approximately a 
+             factor of two, all while maintaining the original accuracy. Power consumption analysis confirmed that the optimized models 
+             used significantly less energy during inference, reinforcing their suitability for deployment in resource-constrained 
+             environments. The system was deployed with a Wi-Fi Access Point (AP) hotspot and a web-based interface, enabling users to 
+             upload and analyze images directly through connected devices such as mobile phones. This setup ensures simple access and 
+             seamless connectivity, making the tool practical for real-world applications. These advancements position the diagnostic 
+             tool as an efficient, scalable, and energy-conscious solution to address diagnosis challenges in underserved regions, paving 
+             the way for broader adoption in low-resource healthcare settings."
   video: 
   pdf: 
   news: 
   awards: 
 
+- title: "Computer Vision for Real-Time Monkeypox Diagnosis on Embedded Systems"
+  authors: Jacob M. Delgado-López, Ricardo A Morell-Rodriguez, Sebastián O Espinosa-Del Rosario, Wilfredo E. Lugo-Beauchamp
+  year: 2025
+  type: Conference 
+  venue: ISICN2025
+  image: ../images/members/test_img.jpg
+  id: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  projectpage: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  code: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.
+  bibtex: |
+    @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
+  abstract: "The rapid diagnosis of infectious diseases, such as monkeypox, is crucial for effective containment and treatment,
+             particularly in resource-constrained environments. This study presents an AI-driven diagnostic tool developed for deployment 
+             on the NVIDIA Jetson Orin Nano, leveraging the pre-trained MobileNetV2 architecture for binary classification. The model was 
+             trained on the open-source Monkeypox Skin Lesion Dataset, achieving a 93.07% F1-Score, which reflects a well-balanced 
+             performance in precision and recall. To optimize the model, the TensorRT framework was used to accelerate inference for FP32 
+             and to perform post-training quantization for FP16 and INT8 formats. TensorRT's mixed-precision capabilities enabled these 
+             optimizations, which reduced the model size, increased inference speed, and lowered power consumption by approximately a 
+             factor of two, all while maintaining the original accuracy. Power consumption analysis confirmed that the optimized models 
+             used significantly less energy during inference, reinforcing their suitability for deployment in resource-constrained 
+             environments. The system was deployed with a Wi-Fi Access Point (AP) hotspot and a web-based interface, enabling users to 
+             upload and analyze images directly through connected devices such as mobile phones. This setup ensures simple access and 
+             seamless connectivity, making the tool practical for real-world applications. These advancements position the diagnostic 
+             tool as an efficient, scalable, and energy-conscious solution to address diagnosis challenges in underserved regions, paving 
+             the way for broader adoption in low-resource healthcare settings."
+  video: 
+  pdf: 
+  news: 
+  awards: 

@@ -3,9 +3,9 @@ layout: page
 title: Publications
 ---
 
-At the moment there are no publications listed.
+<!-- At the moment there are no publications listed. -->
 
-<!-- The most accurate list of publications can be found on [Google Scholar]()
+<!-- The most accurate list of publications can be found on [Google Scholar]() -->
 
 <script>
 function showhide(d) {
@@ -184,4 +184,4 @@ function showhide(d) {
     {% endif %}
 {% endfor %}
 </table>
-{% endif %} -->
+{% endif %}
