@@ -5,7 +5,7 @@
   type: Conference 
   venue: ISICN2025
   image: ../images/members/test_img.jpg
-  id: mpox2025
+  id: submission_2846
   projectpage: 
   code: 
   bibtex: |
@@ -30,7 +30,7 @@
   type: Conference 
   venue: ISICN2025
   image: ../images/members/test_img.jpg
-  id: engine2025
+  id: submission_2107
   projectpage: 
   code: 
   bibtex: |
@@ -45,6 +45,36 @@
              poten- tial for accessible diagnostics in low-resource environments. The meth- ods presented extend beyond skin cancer 
              detection, with applications in other medical and autonomous systems, highlighting the broader impact of AI-driven solutions 
              on global healthcare accessibility."
+  video: 
+  pdf: 
+  news: 
+  awards: 
+
+- title: "Performance Analysis of Post-Training Quantization for CNN-based Conjunctival Pallor Anemia Detection"
+  authors: Sebastián A. Cruz Romero, Wilfredo Lugo Beauchamp
+  year: 2025
+  type: Conference 
+  venue: ISICN2025
+  image: ../images/members/test_img.jpg
+  id: submission_4614
+  projectpage: 
+  code: 
+  bibtex: |
+    @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
+  abstract: "Anemia is a widespread global health issue, particularly among young children in low-resource settings. Traditional methods 
+             for anemia detection often require expensive equipment and expert knowledge, cre- ating barriers to early and accurate 
+             diagnosis. To address these chal- lenges, we explore the use of deep learning models for detecting anemia through 
+             conjunctival pallor, focusing on the CP-AnemiC dataset, which includes 710 images from children aged 6-59 months. 
+             The dataset is annotated with hemoglobin levels, gender, age, and other demographic data, enabling the development of 
+             machine learning models for accurate anemia detection. We use the MobileNet architecture as a backbone, known for its 
+             efficiency in mobile and embedded vision applications, and fine-tune our model end-to-end using data augmentation techniques 
+             and a cross-validation strategy. Our model implementation achieved an accu- racy of 0.9313, a precision of 0.9374, and an 
+             F1 score of 0.9773, demon- strating strong performance on the dataset. To optimize the model for deployment on edge devices,
+             we performed post-training quantization, evaluating the impact of different bit-widths (FP32, FP16, INT8, and INT4) on model 
+             performance. Preliminary results suggest that while FP16 quantization maintains high accuracy (0.9250), precision (0.9370) 
+             and F1 score (0.9377), more aggressive quantization (INT8 and INT4) leads to significant performance degradation. Overall, 
+             our study supports further exploration of quantization schemes and hardware optimizations to assess trade-offs between model 
+             size, inference time, and diagnostic accuracy in mobile healthcare applications."
   video: 
   pdf: 
   news: 
