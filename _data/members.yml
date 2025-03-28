@@ -4,7 +4,7 @@
       list:
         - name: Wilfredo E. Lugo-Beauchamp
           image: ../../images/members/wilfredo.jpg
-          role: Assistant Professor
+          role: Assistant Professor, Computer Science and Engineering Department
           website: https://www.linkedin.com/in/wilfredo-lugo-beauchamp-0b083838/
           alt: 
         # - name:
@@ -122,41 +122,48 @@
           image: ../../images/members/ricardo_morell.jpg
           website: http://linkedin.com/in/ricardo-a-morell-7831921b8
           alt:  
-        # - name: Luis E Fernandez Ramirez
-        #   role: Computer Science and Engineering
-        #   image: 
-        #   website: 
-        #   alt:  
-        # - name: Carlos
-        #   image: 
-        #   website: 
-        #   alt:  
-        # - name: Alexis
-        #   image: 
-        #   website: 
-        #   alt:
-        # - name: Taimara
-        #   role: 
-        #   image: 
-        #   website: 
-        #   alt:  
-        # - name: Alfredo
-        #   image: 
-        #   website: 
-        #   alt:  
-        # - name: Onelle
-        #   image: 
-        #   website: 
-        #   alt:  
-        # - name: Jorge Rivera
-        #   role: 
-        #   image: 
-        #   website: 
-        #   alt:  
-        # - name: Fernando Sierra
-        #   image: 
-        #   website: 
-        #   alt:  
+        - name: Luis E.Fernandez Ramirez
+          role: Computer Science and Engineering
+          image: ../../images/members/luis_fernandez.jpg
+          website: https://www.linkedin.com/in/luis-fernandez-ramirez/
+          alt:  
+        - name: Carlos S. Hernández Alvarado
+          role: Software Engineering
+          image: ../../images/members/carlos_hernandez.jpg
+          website: https://www.linkedin.com/in/carloshernandez11/
+          alt:  
+        - name: Alexis M. Santiago Rivera
+          role: Software Engineering
+          # image: ../../images/members/alexis_santiago.jpg
+          image: ../../images/members/test_img.jpg
+          website: https://www.linkedin.com/in/alexis-santiago-rivera/
+          alt:
+        - name: Taimara P. Colón López
+          role: Software Engineering
+          image: ../../images/members/taimara_colon.jpg
+          website: https://www.linkedin.com/in/taimara-p-colon-lopez/
+          alt:  
+        - name: Alfredo D. Soto Vélez
+          role: Computer Engineering
+          # image: ../../images/members/alfredo_soto.jpg
+          image: ../../images/members/test_img.jpg
+          website: https://www.linkedin.com/in/alfredo-d-soto-velez/
+          alt:  
+        - name: Onelle Lugo Rodríguez
+          role: Software Engineering
+          image: ../../images/members/onelle_lugo.jpg
+          website: https://www.linkedin.com/in/onnellelugo/
+          alt:  
+        - name: Jorge L. Rivera González
+          role: Software Engineering and minor in Atmospheric Sciences and Meteorology
+          image: ../../images/members/jorge_rivera.jpg
+          website: https://www.linkedin.com/in/jorge-rivera-317b09170/
+          alt:  
+        - name: Fernando J. Sierra Aponte
+          role: Software Engineering
+          image: ../../images/members/fernando_sierra.jpg
+          website: https://www.linkedin.com/in/fernandojsierra/
+          alt:  
         # - name: TBA
         #   image: 
         #   website: 
@@ -197,12 +204,15 @@
       name: Undergraduate students
       list:
         - name: Kenniel Torres
+          role: SWE @ E3 Consulting and MSc in Computer Science @ Georgia Institue of Technology
           website: 
           alt:  
         - name: Christian Rodriguez
+          role:
           website: 
           alt: 
         - name: Sebastian O. Espinosa-del-Rosario
+          role:
           website: 
           alt:  
 #    - name: PhD students
