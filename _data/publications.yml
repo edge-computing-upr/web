@@ -1,15 +1,49 @@
 # Find and Delete these: ’
+- title: "Design of an Edge-based Portable EHR System for Anemia Screening in Remote Health Applications"
+  authors: Sebastián A. Cruz Romero, Misael J. Mercado Hernandez, Samir Y. Ali Rivera, Jorge A. Santiago Fernandez, Wilfredo E. Lugo Beauchamp
+  year: 2025
+  type: Conference 
+  venue: IEEE Global Humanitarian Technology Conference
+  id: conference_004
+  projectpage: 
+  code: 
+  bibtex:
+  abstract: "The design of medical systems for remote, resource-limited environments
+            faces persistent challenges due to poor interoperability, lack of offline
+            support, and dependency on costly infrastructure. Many existing digital
+            health solutions neglect these constraints, limiting their effectiveness
+            for frontline health workers in underserved regions. This paper presents
+            a portable, edge-enabled Electronic Health Record platform optimized for
+            offline-first operation, secure patient data management, and modular
+            diagnostic integration. Running on small-form factor embedded devices, it
+            provides AES-256 encrypted local storage with optional cloud synchronization
+            for interoperability. As a use case, we integrated a non-invasive anemia
+            screening module leveraging fingernail pallor analysis. Trained on 250
+            patient cases (27% anemia prevalence) with KDE-balanced data, the Random
+            Forest model achieved a test RMSE of 1.969 g/dL and MAE of 1.490 g/dL. A
+            severity-based model reached 79.2% sensitivity. To optimize performance,
+            a YOLOv8n-based nail bed detector was quantized to INT8, reducing inference
+            latency from 46.96 ms to 21.50 ms while maintaining mAP@0.5 at 0.995. The
+            system emphasizes low-cost deployment, modularity, and data privacy compliance
+            (HIPAA/GDPR), addressing critical barriers to digital health adoption in
+            disconnected settings. Our work demonstrates a scalable approach to enhance
+            portable health information systems and support frontline healthcare in
+            underserved regions."
+  video: 
+  pdf:
+  arxiv: https://arxiv.org/abs/2507.15146
+  news: 
+  awards: 
+
 - title: "Computer Vision for Real-Time Monkeypox Diagnosis on Embedded Systems"
   authors: Jacob M. Delgado-López, Ricardo A Morell-Rodriguez, Sebastián O Espinosa-Del Rosario, Wilfredo E. Lugo-Beauchamp
   year: 2025
   type: Conference 
-  venue: ISICN2025
-  image: ../images/members/test_img.jpg
-  id: submission_2846
+  venue: International Symposium on Intelligent Computing and Networking
+  id: conference_003
   projectpage: 
   code: 
-  bibtex: |
-    @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
+  bibtex:
   abstract: "Rapid diagnosis of infectious diseases, such as monkeypox, is essential for effective containment and treatment, particularly
              in resource-constrained settings. This study presents an AI-driven diagnos- tic tool optimized for deployment on the 
              NVIDIA Jetson Orin Nano. Several pre-trained architectures were evaluated, with MobileNetV2 and DenseNet121 achieving the 
@@ -20,23 +54,23 @@
              analyze images directly through connected devices such as mobile phones. These advancements position the tool as a scalable, 
              efficient, and low-power diagnostic solution for deployment in underserved healthcare settings."
   video: 
-  pdf: 
+  pdf:
+  arxiv: https://arxiv.org/abs/2507.17123
   news: 
   awards: 
 
-- title: "Model Compression for Skin Cancer Diagnosis"
+- title: "Model Compression Engine for Wearable Devices Skin Cancer Diagnosis"
   authors: Jacob M. Delgado-López, Andrea P. Seda-Hernandez, Juan D. Guadalupe-Rosado, Luis E. Fernandez Ramirez, Miguel Giboyeaux-Camilo, Wilfredo E. Lugo-Beauchamp
   year: 2025
   type: Conference 
-  venue: ISICN2025
+  venue: International Symposium on Intelligent Computing and Networking
   image: ../images/members/test_img.jpg
-  id: submission_2107
+  id: conference_002
   projectpage: 
   code: 
-  bibtex: |
-    @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
+  bibtex:
   abstract: "Skin cancer is one of the most common and preventable cancers, yet early detection remains challenging, especially in 
-             resource- limited settings with scarce specialized healthcare. This study develops an AI-driven diagnostic tool optimized 
+             resource-limited settings with scarce specialized healthcare. This study develops an AI-driven diagnostic tool optimized 
              for embedded systems to ad- dress this gap. Using transfer learning with MobileNetV2, the model was trained for multi-class 
              classification of skin lesions and optimized with TensorRT for deployment on the NVIDIA Jetson Orin Nano. Evalua- tions 
              focused on model size, inference speed, throughput, and power con- sumption, balancing performance with efficiency. 
@@ -46,7 +80,8 @@
              detection, with applications in other medical and autonomous systems, highlighting the broader impact of AI-driven solutions 
              on global healthcare accessibility."
   video: 
-  pdf: 
+  pdf:
+  arxiv: https://www.arxiv.org/abs/2507.17125
   news: 
   awards: 
 
@@ -54,13 +89,11 @@
   authors: Sebastián A. Cruz Romero, Wilfredo Lugo Beauchamp
   year: 2025
   type: Conference 
-  venue: ISICN2025
-  image: ../images/members/test_img.jpg
-  id: submission_4614
+  venue: International Symposium on Intelligent Computing and Networking
+  id: conference_001
   projectpage: 
   code: 
-  bibtex: |
-    @inproceedings{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis libero et imperdiet scelerisque.}
+  bibtex:
   abstract: "Anemia is a widespread global health issue, particularly among young children in low-resource settings. Traditional methods 
              for anemia detection often require expensive equipment and expert knowledge, cre- ating barriers to early and accurate 
              diagnosis. To address these chal- lenges, we explore the use of deep learning models for detecting anemia through 
@@ -76,6 +109,7 @@
              our study supports further exploration of quantization schemes and hardware optimizations to assess trade-offs between model 
              size, inference time, and diagnostic accuracy in mobile healthcare applications."
   video: 
-  pdf: 
+  pdf:
+  arxiv: https://arxiv.org/abs/2507.15151
   news: 
   awards: 

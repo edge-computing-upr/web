@@ -2,6 +2,7 @@
 layout: page
 title: Jetson Orin Nano Setup
 slim: true
+cover-img: images/tutorial_photos/jetson_image.png
 ---
 
 1. First we ned to update the Firmware on the Jetson Orin Nano. If you are not sure which one you have. Recommend the follow step 2 to upgrade firmware to 36.x or greater. Otherwise, skip to step 4.

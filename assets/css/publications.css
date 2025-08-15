@@ -1,0 +1,67 @@
+.pub-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.pub-list li {
+  margin-bottom: 0.85rem;
+  line-height: 1.5;
+}
+
+.pub-links a {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 2px 8px;
+  border-radius: 5px;
+  background: rgba(9, 153, 220, 0.95);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.pub-links a:hover {
+  background: rgba(9, 153, 220, 0.816);
+  text-decoration: none;
+}
+
+.pub-award {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid #ffedd5;
+  background: #fff7ed;
+  color: #b45309;
+  font-size: 0.8em;
+}
+
+/* Improve spacing under section headings */
+h1 + .pub-list,
+h2 + .pub-list,
+h3 + .pub-list {
+  margin-top: 0.75rem;
+}
+
+/* Make links wrap nicely on mobile */
+.pub-links {
+  display: inline-block;
+  margin-left: 0.25rem;
+}
+
+@media (max-width: 576px) {
+  .pub-list {
+    padding-left: 1rem;
+  }
+  .pub-links a {
+    margin-top: 4px;
+  }
+}
+
+/* Abstract text styling */
+.pub-abstract {
+  color: #5f6b7a; /* readable gray */
+  font-size: 0.92em;
+  padding-top: 6px;
+}
+
+
