@@ -2,6 +2,7 @@
 layout: page
 title: TensorRT Container Setup
 slim: true
+cover-img: images/tutorial_photos/tensorrt_logo.png
 ---
 
 ## Prerequisites

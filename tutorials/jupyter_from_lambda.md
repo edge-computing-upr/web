@@ -2,6 +2,7 @@
 layout: page
 title: Jupyter Notebooks from Lambda Servers
 slim: true
+cover-img: images/tutorial_photos/jupyternotebook_logo.png
 ---
 
 1. Log-in into a Lambda server using your credentials via ssh.
