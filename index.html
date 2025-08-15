@@ -1,99 +1,152 @@
 ---
 layout: page
+full-width: true
+css:
+  - "/index.css"
 ---
 
-<!-- Main Logo -->
-<div style="text-align: center; margin-top: 20px;">
-  <img src="images/logos/ecglogo_ver.png" alt="Edge Computing Group Logo" style="width: 500; height: auto;">
-</div>
-
-<!-- Welcome Message -->
-<p style="text-align: center; font-size: 1.2em; margin-top: 20px;">
-  Welcome to the Edge Computing Group based in the <a href="https://www.uprm.edu/cid/" target="_blank">Research & Development Center</a>
-  at the <a href="https://www.uprm.edu/portada/" target="_blank">University of Puerto Rico at Mayagüez</a>!
-</p>
-
-<!-- About the Lab -->
-<div style="margin: 30px auto; max-width: 800px; text-align: justify; font-size: smaller;">
-  <p>
-    The Edge Computing Group (ECG) is directed by Dr. Wilfredo Lugo Beauchamp, Assistant Professor in the
-    Department of Computer Science and Engineering at the University of Puerto Rico at Mayagüez (UPRM). The ECG
-    focuses on developing tools to decrease resource requirements current computing methods consume before,
-    during, and after deployment, including power, processing, and memory demands. We specialize in applying
-    complex algorithms to run efficiently on resource-constrained environments, namely embedded systems such
-    as IoT devices and wearable sensors. By optimizing computation at the edge, we aim to minimize data 
-    transfer, enhance privacy, and unlock new possibilities for real-time applications in areas like
-    agriculture, healthcare, and environmental conservation.</p>
-</div>
-
-
-
-<!-- Research Projects -->
-<h2 style="text-align: left; margin-top: 50px;">Ongoing Research</h2>
-
-<!-- Project 1 -->
-<div style="display: flex; align-items: center; justify-content: center; margin-bottom: 40px;">
-  <!-- Graphical Abstract -->
-  <div style="flex: 9; text-align: center;">
-    <img src="images/graphical_abstracts/project1_abstract.png" alt="Project 1 Graphical Abstract" style="width: 100%; border: 1px solid #ccc; border-radius: 5px;">
-  </div>
-  <!-- Summary -->
-  <div style="flex: 10; padding-left: 20px;">
-    <h3>Model Compression Engine for Wearable Devices on Skin Cancer</h3>
-    <p style="text-align: justify; font-size: smaller;">
-      When it comes to saving a person's life, early detection of illnesses can make the difference between
-      life and death. Machine learning models can be of great help in this case, but their complexity scales
-      with their effectiveness, limiting the types of devices that can run said models. Our objective with
-      this project is to develop a compact model that is capable of running in edge devices while maintaining
-      an acceptable level of accuracy when it comes to detecting skin cancer. We seek to achieve this via a
-      technique called transfer learning, where we take a reliable model that has shown to be effective in
-      other areas, MobileNet V2 in our case, and we modify and train its outer layers so that it is capable
-      of classifying pictures of a patient afflicted with skin cancer.
-    </p>
-  </div>
-</div>
-
-<!-- Project 2 -->
-<div style="display: flex; align-items: center; justify-content: center; margin-bottom: 40px;">
-  <!-- Graphical Abstract -->
-  <div style="flex: 9; text-align: center;">
-    <img src="images/graphical_abstracts/project2_abstract.png" alt="Project 2 Graphical Abstract" style="width: 100%; border: 1px solid #ccc; border-radius: 5px;">
-  </div>
-  <!-- Summary -->
-  <div style="flex: 10; padding-left: 20px;">
-    <h3>Addressing Memory Consumption in Edge Devices through Data Quantization</h3>
-    <p style="text-align: justify; font-size: smaller;">
-      In Puerto Rico, frequent natural disasters disrupt healthcare systems, making it essential to develop
-      diagnostic tools that work without relying on central networks. Our project focuses on optimizing deep
-      learning models by reducing their memory and computational demands, allowing them to run efficiently on
-      portable devices. We aim to do this through quantization, essentially converting 32-bit data to 8-bit,
-      significantly cutting memory usage. This approach will be applied to a biomedical case of anemia
-      detection through conjunctiva pallor analysis. By using lightweight models, we hope to create effective,
-      low-power diagnostic tools that can function in areas with limited infrastructure, improving healthcare
-      access during emergencies.
-    </p>
-  </div>
-</div>
-
-<!-- Pending add Capstone Project -->
-
-<!-- Additional Projects -->
-<!-- Repeat this pattern for each project -->
-
-<!-- Join Us Section -->
-<div style="margin: 50px auto; max-width: 800px; text-align: justify;">
-  <p>
-    If you are a current or admitted student at UPRM and interested in joining our group, please email: 
-    <a href="mailto:wilfredo.lugo1@upr.edu">wilfredo.lugo1@upr.edu</a>
+<!-- Hero Section -->
+<div class="hero-section" style="background: white; color: #333; padding: 10px; text-align: center; height: 100vh;">
+  <img src="images/logos/ecglogo_ver.png" alt="Edge Computing Group Logo" style="width: 45vh; height: auto;">
+  <h1 style="font-size: 2.2em; margin-bottom: 20px; color: #333;">Edge Computing Group</h1>
+  <p style="font-size: 1.1em; max-width: 800px; margin: 0 auto; opacity: 0.8;">
+    Our lab develops inventive solutions that bring computation closer
+    to the source, going beyond the limitations of cloud services, costly hardware, and
+    remote deployment. Our technologies are applied across diverse areas including
+    digital health, agricultural sciences, and disaster-resilient transportation.
+  </p>
+  <p style="font-size: 0.9em; max-width: 800px; margin: 1em auto; opacity: 0.8;">
+    Based at the <a href="https://www.uprm.edu/cid/" target="_blank" style="color: #667eea; text-decoration: underline;">Research & Development Center</a>
+    of the <a href="https://www.uprm.edu/portada/" target="_blank" style="color: #667eea; text-decoration: underline;">University of Puerto Rico at Mayagüez</a>
   </p>
 </div>
 
-<!-- Funding Organizations -->
-<h2 style="text-align: center; margin-top: 50px;">Our Supporters</h2>
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; margin: 30px 0;">
-  <img src="images/logos/uprm_logo.png" alt="Funder 1 Logo" style="width: 150px; margin: 10px;">
-  <img src="images/logos/cseuprm_logo.png" alt="Funder 2 Logo" style="width: 150px; margin: 10px;">
-  <img src="images/logos/nsf_logo.png" alt="Funder 3 Logo" style="width: 150px; margin: 10px;">
-  <img src="images/logos/nsfepscor_logo.png" alt="Funder 4 Logo" style="width: 150px; margin: 10px;">
-  <img src="images/logos/cawt_logo.png" alt="Funder 5 Logo" style="width: 150px; margin: 10px;">
+<!-- News Carousel Section -->
+<div class="news-section" style="background: #f8f9fa; padding: 60px 20px;">
+  <div style="text-align: center; margin-bottom: 50px;">
+    <h2 style="font-size: 2.2em; color: #333; margin-bottom: 20px;">Latest News & Updates</h2>
+    <div style="width: 80px; height: 4px; background: linear-gradient(135deg, rgba(220, 9, 9, 0.95) 0%, rgba(9, 153, 220, 0.95) 100%); margin: 0 auto;"></div>
 </div>
+
+  <div class="carousel-container" style="overflow: hidden; position: relative; max-width: 100%;">
+    <div class="carousel-track" style="display: flex; animation: scroll 30s linear infinite; width: fit-content;">
+      
+             {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+       {% for post in sorted_posts limit:10 %}
+         <div class="flip-card" style="height: 300px; width: 300px; perspective: 1000px; margin: 0 15px; flex-shrink: 0;">
+           <div class="flip-card-inner" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.8s; transform-style: preserve-3d;">
+             <div class="flip-card-front" style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+               {% if post.cover-img %}
+                 <img src="{{ post.cover-img | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+               {% elsif post.thumbnail-img %}
+                 <img src="{{ post.thumbnail-img | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+               {% else %}
+                 <img src="images/logos/ecg_logo_hor.png" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover; background: white;">
+               {% endif %}
+             </div>
+             <div class="flip-card-back" style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: linear-gradient(135deg, rgba(220, 9, 9, 0.95) 0%, rgba(9, 153, 220, 0.95) 100%); color: white; transform: rotateY(180deg); border-radius: 15px; display: flex; flex-direction: column; justify-content: space-between; padding: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); overflow: hidden;">
+               <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0;">
+                 <h3 style="margin: 0 0 8px 0; font-size: 1.2em; line-height: 1.3; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ post.title }}</h3>
+                 {% if post.subtitle %}
+                   <p style="margin: 0 0 8px 0; font-size: 0.9em; opacity: 0.9; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">{{ post.subtitle }}</p>
+                 {% endif %}
+                 <p style="margin: 0; line-height: 1.4; font-size: 0.85em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                   {% if post.excerpt %}
+                     {{ post.excerpt | strip_html | truncatewords: 15 }}
+                   {% else %}
+                     {{ post.content | strip_html | truncatewords: 15 }}
+                   {% endif %}
+                 </p>
+               </div>
+               <div style="font-size: 0.8em; opacity: 0.8; margin-top: 8px;">
+                 {{ post.date | date: "%B %d, %Y" }}
+               </div>
+             </div>
+           </div>
+         </div>
+       {% endfor %}
+
+             <!-- Duplicate items for seamless loop -->
+       {% for post in sorted_posts limit:5 %}
+         <div class="flip-card" style="height: 300px; width: 300px; perspective: 1000px; margin: 0 15px; flex-shrink: 0;">
+           <div class="flip-card-inner" style="position: relative; width: 100%; height: 100%; text-align: center; transition: transform 0.8s; transform-style: preserve-3d;">
+             <div class="flip-card-front" style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+               {% if post.cover-img %}
+                 <img src="{{ post.cover-img | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+               {% elsif post.thumbnail-img %}
+                 <img src="{{ post.thumbnail-img | relative_url }}" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover;">
+               {% else %}
+                 <img src="images/logos/ecg_logo_hor.png" alt="{{ post.title }}" style="width: 100%; height: 100%; object-fit: cover; background: white;">
+               {% endif %}
+             </div>
+             <div class="flip-card-back" style="position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background: linear-gradient(135deg, rgba(220, 9, 9, 0.95) 0%, rgba(9, 153, 220, 0.95) 100%); color: white; transform: rotateY(180deg); border-radius: 15px; display: flex; flex-direction: column; justify-content: space-between; padding: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); overflow: hidden;">
+               <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0;">
+                 <h3 style="margin: 0 0 8px 0; font-size: 1.2em; line-height: 1.3; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ post.title }}</h3>
+                 {% if post.subtitle %}
+                   <p style="margin: 0 0 8px 0; font-size: 0.9em; opacity: 0.9; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">{{ post.subtitle }}</p>
+                 {% endif %}
+                 <p style="margin: 0; line-height: 1.4; font-size: 0.85em; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                   {% if post.excerpt %}
+                     {{ post.excerpt | strip_html | truncatewords: 15 }}
+                   {% else %}
+                     {{ post.content | strip_html | truncatewords: 15 }}
+                   {% endif %}
+                 </p>
+               </div>
+               <div style="font-size: 0.8em; opacity: 0.8; margin-top: 8px;">
+                 {{ post.date | date: "%B %d, %Y" }}
+               </div>
+             </div>
+           </div>
+         </div>
+       {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+<!-- Makerspace Approach -->
+<div class="makerspace-section" style="padding: 60px 20px;">
+  <div class="container" style="max-width: 1400px; margin: 0 auto;">
+    <div class="makerspace-grid">
+      <div class="makerspace-text">
+        <h2 style="font-size: 2.2em; color: #333; margin-bottom: 20px;">Our "Makerspace" Approach</h2>
+        <p style="color: #666; line-height: 1.7; font-size: 1.1em; max-width: 800px;">
+          At the Edge Computing Group, we believe groundbreaking innovation starts
+          with bold ideas. We invite undergraduate and graduate students alike to 
+          bring their concepts to life in a collaborative, resource-rich environment, 
+          supported by peer mentorship and hands-on experimentation.
+        </p>
+        <p style="color: #666; line-height: 1.7; font-size: 1.1em; max-width: 800px;">
+          If you are interested in joining our team or simply curious about our work, please contact us at 
+          <a href="mailto:wilfredo.lugo1@upr.edu" style="color: #667eea; text-decoration: underline;">wilfredo.lugo1@upr.edu</a>
+        </p>
+      </div>
+      <div class="makerspace-media">
+        <div class="decor-shape shape-1"></div>
+        <div class="decor-shape shape-2"></div>
+        <img src="images/lab_photos/ecglab_s2025.jpg" alt="Edge Computing Group makerspace" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Funding & Support -->
+<div class="funding-section" style="padding: 40px 20px;">
+  <div class="container" style="max-height: 1500px; margin: 0 auto;">
+    <div style="text-align: center; margin-bottom: 50px;">
+      <h2 style="font-size: 2.2em; color: #333; margin-bottom: 20px;">Our Supporters</h2>
+      <div style="width: 80px; height: 4px; background: linear-gradient(135deg, rgba(220, 9, 9, 0.95) 0%, rgba(9, 153, 220, 0.95) 100%); margin: 0 auto;"></div>
+</div>
+
+    <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 30px;">
+      <img src="images/logos/uprm_logo.png" alt="UPRM Logo" style="height: 15vh; width: auto; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;">
+      <img src="images/logos/cseuprm_logo.png" alt="CSE UPRM Logo" style="height: 15vh; width: auto; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;">
+      <img src="images/logos/nsf_logo.png" alt="NSF Logo" style="height: 15vh; width: auto; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;">
+      <img src="images/logos/nsfepscor_logo.png" alt="NSF EPSCoR Logo" style="height: 15vh; width: auto; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;">
+      <img src="images/logos/cawt_logo.png" alt="CAWT Logo" style="height: 15vh; width: auto; filter: grayscale(100%); opacity: 0.7; transition: all 0.3s ease;">
+    </div>
+  </div>
+</div>
+
+

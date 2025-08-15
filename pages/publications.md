@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Publications
+css:
+  - "/index.css"
+  - "/assets/css/publications.css"
 ---
-
-<!-- At the moment there are no publications listed. -->
-
-<!-- The most accurate list of publications can be found on [Google Scholar]() -->
 
 <script>
 function showhide(d) {
@@ -18,170 +17,80 @@ function showhide(d) {
 }
 </script>
 
+{% comment %}
+  Build sections based on availability and display IEEE-style citations.
+  IEEE style (simplified with available fields):
+  Authors, "Title," <em>Venue</em>, Year.
+{% endcomment %}
+
+{% assign pubs_sorted = site.data.publications | sort: 'id' | reverse %}
+
 {% assign has_preprints = false %}
-{% for pub in site.data.publications %}
-    {% if pub.type == "preprint" %}
-        {% assign has_preprints = true %}
-        {% break %}
-    {% endif %}
+{% for pub in pubs_sorted %}
+  {% if pub.type and pub.type == "preprint" %}
+    {% assign has_preprints = true %}
+    {% break %}
+  {% endif %}
 {% endfor %}
 
-{% if has_preprints == true %}
+{% if has_preprints %}
 # Preprints
-<table cellpadding="10" width="100%">
-{% for pub in site.data.publications %}
-    {% if pub.type == "preprint" %}
-        {% assign authors = {{pub.authors}} | split: ", " %}
-        <tr>
-            <td width="200" height="100">
-                <img src="{{pub.image}}" img width="250">
-            </td>
-            <td><h6><a href="{{pub.pdf}}">{{pub.title}}</a></h6>
-                <div style="line-height:50%;">
-                    <br>
-                </div>
-                <div style="font-size:medium">
-                    {% for author in authors %}
-                        {% if forloop.index == authors.size %}
-                            <nobr>{{ author }}</nobr>
-                        {% else %}
-                            <nobr>{{ author }},</nobr>
-                        {% endif %}
-                    {% endfor %}<br>
-                    <em>{{pub.venue}}</em>, {{pub.year}}
-                    {% if pub.awards %}
-                        <b> {{pub.awards}}</b>
-                    {% endif %}
-                    <br>
-                </div>
-                <div style="line-height:50%;">
-                    <br>
-                </div>
-                <div style="font-size:small">
-                    <em>
-                        {% if pub.pdf %}
-                            <a href="{{pub.pdf}}">[PDF]</a>
-                        {% endif %}
-                        {% if pub.projectpage %}
-                            <a href="{{pub.projectpage}}">[Project Page]</a>
-                        {% endif %}
-                        {% if pub.code %}
-                            <a href="{{pub.code}}">[Code]</a>
-                        {% endif %}
-                        {% if pub.bibtex %}
-                            <a href="javascript:showhide('bib{{pub.id}}')">[Bibtex]</a>
-                        {% endif %}
-                        {% if pub.abstract %}
-                            <a href="javascript:showhide('abs{{pub.id}}')">[Abstract]</a>
-                        {% endif %}
-                        {% if pub.video %}
-                            <a href="{{pub.video}}">[Video]</a>
-                        {% endif %}
-                    </em>
-                    <div id="bib{{pub.id}}" style="display:none">
-                        <br>
-                        <blockquote>
-                            <div style="white-space: pre-wrap;">{{pub.bibtex}}</div>
-                        </blockquote>
-                    </div>
-                    <div id="abs{{pub.id}}" style="display:none">
-                        <br>
-                        {{pub.abstract}}
-                    </div>
-                </div>
-                <br>
-            </td>
-        </tr>
-    {% endif %}
+<ol class="pub-list">
+{% for pub in pubs_sorted %}
+  {% if pub.type and pub.type == "preprint" %}
+    <li>
+      {{ pub.authors }}. “{{ pub.title }},” <em>{{ pub.venue }}</em>, {{ pub.year }}.
+      <span class="pub-links">
+        {% if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
+        {% if pub.arxiv %} <a href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+        {% if pub.projectpage %} <a href="{{ pub.projectpage }}">Project Page</a>{% endif %}
+        {% if pub.code %} <a href="{{ pub.code }}">Code</a>{% endif %}
+        {% if pub.video %} <a href="{{ pub.video }}">Video</a>{% endif %}
+        {% if pub.bibtex %} <a href="javascript:showhide('bib{{ pub.id }}')">Bibtex</a>{% endif %}
+        {% if pub.abstract %} <a href="javascript:showhide('abs{{ pub.id }}')">Abstract</a>{% endif %}
+      </span>
+      <div id="bib{{ pub.id }}" style="display:none"><blockquote><div style="white-space: pre-wrap;">{{ pub.bibtex }}</div></blockquote></div>
+      <div id="abs{{ pub.id }}" class="pub-abstract" style="display:none">{{ pub.abstract }}</div>
+    </li>
+  {% endif %}
 {% endfor %}
-</table>
+</ol>
 {% endif %}
 
-
 {% assign has_pubs = false %}
-{% for pub in site.data.publications %}
-    {% if pub.type != "preprint" %}
-        {% assign has_pubs = true %}
-        {% break %}
-    {% endif %}
+{% for pub in pubs_sorted %}
+  {% if pub.type != "preprint" %}
+    {% assign has_pubs = true %}
+    {% break %}
+  {% endif %}
 {% endfor %}
 
-{% if has_pubs == true %}
-{% if has_preprints == true %}
+{% if has_pubs %}
+{% if has_preprints %}
 # Peer-Reviewed Publications
 {% endif %}
 
-<table cellpadding="10" width="100%">
-{% for pub in site.data.publications %}
-    {% if pub.type != "preprint" %}
-        {% assign authors = {{pub.authors}} | split: ", " %}
-        <tr>
-            <td width="200" height="100">
-                <img src="{{pub.image}}" img width="250">
-            </td>
-            <td><h6><a href="{{pub.pdf}}">{{pub.title}}</a></h6>
-                <div style="line-height:50%;">
-                    <br>
-                </div>
-                <div style="font-size:medium">
-                    {% for author in authors %}
-                        {% if forloop.index == authors.size %}
-                            <nobr>{{ author }}</nobr>
-                        {% else %}
-                            <nobr>{{ author }},</nobr>
-                        {% endif %}
-                    {% endfor %}<br>
-                    <em>{{pub.venue}}</em>, {{pub.year}}
-                    {% if pub.awards %}
-                        <b> {{pub.awards}}</b>
-                    {% endif %}
-                    <br>
-                </div>
-                <div style="line-height:50%;">
-                    <br>
-                </div>
-                <div style="font-size:small">
-                    <em>
-                        {% if pub.pdf %}
-                            <a href="{{pub.pdf}}">[PDF]</a>
-                        {% endif %}
-                        {% if pub.projectpage %}
-                            <a href="{{pub.projectpage}}">[Project Page]</a>
-                        {% endif %}
-                        {% if pub.code %}
-                            <a href="{{pub.code}}">[Code]</a>
-                        {% endif %}
-                        {% if pub.bibtex %}
-                            <a href="javascript:showhide('bib{{pub.id}}')">[Bibtex]</a>
-                        {% endif %}
-                        {% if pub.abstract %}
-                            <a href="javascript:showhide('abs{{pub.id}}')">[Abstract]</a>
-                        {% endif %}
-                        {% if pub.video %}
-                            <a href="{{pub.video}}">[Video]</a>
-                        {% endif %}
-                        {% if pub.news %}
-                            <a href="{{pub.news}}">[In The News]</a>
-                        {% endif %}
-                        {% if pub.news2 %}
-                            <a href="{{pub.news2}}">[In The News 2]</a>
-                        {% endif %}
-                    </em>
-                    <div id="bib{{pub.id}}" style="display:none">
-                        <br>
-                        <blockquote>
-                            <div style="white-space: pre-wrap;">{{pub.bibtex}}</div>
-                        </blockquote>
-                    </div>
-                    <div id="abs{{pub.id}}" style="display:none">
-                        <br>
-                        {{pub.abstract}}
-                    </div>
-                </div>
-                <br>
-            </td>
-        </tr>
-    {% endif %}
+<ol class="pub-list">
+{% for pub in pubs_sorted %}
+  {% if pub.type != "preprint" %}
+    <li>
+      {{ pub.authors }}. “{{ pub.title }},” <em>{{ pub.venue }}</em>, {{ pub.year }}.
+      {% if pub.awards %} <span class="pub-award">{{ pub.awards }}</span>{% endif %}
+      <span class="pub-links">
+        {% if pub.pdf %} <a href="{{ pub.pdf }}">PDF</a>{% endif %}
+        {% if pub.arxiv %} <a href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+        {% if pub.projectpage %} <a href="{{ pub.projectpage }}">[Project Page]</a>{% endif %}
+        {% if pub.code %} <a href="{{ pub.code }}">Code</a>{% endif %}
+        {% if pub.video %} <a href="{{ pub.video }}">Video</a>{% endif %}
+        {% if pub.news %} <a href="{{ pub.news }}">In The News</a>{% endif %}
+        {% if pub.news2 %} <a href="{{ pub.news2 }}">In The News 2</a>{% endif %}
+        {% if pub.bibtex %} <a href="javascript:showhide('bib{{ pub.id }}')">[Bibtex]</a>{% endif %}
+        {% if pub.abstract %} <a href="javascript:showhide('abs{{ pub.id }}')">Abstract</a>{% endif %}
+      </span>
+      <div id="bib{{ pub.id }}" style="display:none"><blockquote><div style="white-space: pre-wrap;">{{ pub.bibtex }}</div></blockquote></div>
+      <div id="abs{{ pub.id }}" class="pub-abstract" style="display:none">{{ pub.abstract }}</div>
+    </li>
+  {% endif %}
 {% endfor %}
-</table>
+</ol>
 {% endif %}
