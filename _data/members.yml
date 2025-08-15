@@ -2,11 +2,22 @@
   list:
     - full: true
       list:
-        - name: Wilfredo E. Lugo-Beauchamp
+        - name: Wilfredo E. Lugo Beauchamp, PhD
           image: ../../images/members/wilfredo.jpg
           role: Assistant Professor, Computer Science and Engineering Department
           website: https://www.linkedin.com/in/wilfredo-lugo-beauchamp-0b083838/
-          alt: 
+          alt: Dr. Lugo Beauchamp brings over 25 years of industry experience in
+              research, development, and data science, with a career spanning Hewlett
+              Packard Enterprise (HPE) and Johnson Controls Inc. (JCI). At HPE, he
+              worked across R&D, hardware diagnostics, quality, and data science,
+              earning recognition as a Distinguished Technologist in Data Science.
+              At JCI, he specialized in industrial automation and developing compressed
+              machine learning models for edge deployment. In 2024, he joined the
+              University of Puerto Rico at Mayagüez as an Assistant Professor in
+              Computer Science and Engineering, where he later founded the Edge
+              Computing Group with support from the PR NSF-EPSCoR CAWT New Faculty
+              seed fund. He holds multiple patents in sensor data processing and has
+              authored peer-reviewed work on streaming data optimization and algorithms.
         # - name:
         #   image:
         #   role:
@@ -92,52 +103,16 @@
   list:
     - full: true
       list:
-        - name: Jacob M. Delgado-López
-          role: Computer Science and Engineering
-          image: ../../images/members/jacob_delgado.jpg
-          website: https://jacobdelgado1002.github.io/
-          alt:  
         - name: Sebastián A. Cruz-Romero
           role: Computer Science and Engineering
           image: ../../images/members/sebastian_cruz.jpg
           website: https://romerocruzsa.github.io/
-          alt:  
-        - name: Andrea P. Seda-Hernández
-          role: Software Engineering
-          image: ../../images/members/andrea_seda.jpg
-          website: http://linkedin.com/in/andrea-seda
-          alt:          
-        - name: Miguel Giboyeaux-Camilo
-          role: Software Engineering
-          image: ../../images/members/miguel_giboyeaux.jpg
-          website: https://www.linkedin.com/in/miguel-giboyeaux-camilo/
-          alt:  
-        - name: Juan D. Guadalupe-Rosado
-          role: Software Engineering
-          image: ../../images/members/juan_guadalupe.jpg
-          website: https://www.linkedin.com/in/juan-d-guadalupe-rosado-00774b250/
           alt:  
         - name: Ricardo A. Morell-Rodriguez
           role: Computer Science and Engineering
           image: ../../images/members/ricardo_morell.jpg
           website: http://linkedin.com/in/ricardo-a-morell-7831921b8
           alt:  
-        - name: Luis E.Fernandez Ramirez
-          role: Computer Science and Engineering
-          image: ../../images/members/luis_fernandez.jpg
-          website: https://www.linkedin.com/in/luis-fernandez-ramirez/
-          alt:  
-        - name: Carlos S. Hernández Alvarado
-          role: Software Engineering
-          image: ../../images/members/carlos_hernandez.jpg
-          website: https://www.linkedin.com/in/carloshernandez11/
-          alt:  
-        - name: Alexis M. Santiago Rivera
-          role: Software Engineering
-          # image: ../../images/members/alexis_santiago.jpg
-          image: ../../images/members/test_img.jpg
-          website: https://www.linkedin.com/in/alexis-santiago-rivera/
-          alt:
         - name: Taimara P. Colón López
           role: Software Engineering
           image: ../../images/members/taimara_colon.jpg
@@ -146,23 +121,33 @@
         - name: Alfredo D. Soto Vélez
           role: Computer Engineering
           # image: ../../images/members/alfredo_soto.jpg
-          image: ../../images/members/test_img.jpg
+          image: ../../images/logos/ecglogo_ver.png
           website: https://www.linkedin.com/in/alfredo-d-soto-velez/
+          alt:
+        - name: Gabriel Díaz Matos
+          role: 
+          image: ../../images/logos/ecglogo_ver.png
+          website: 
           alt:  
-        - name: Onelle Lugo Rodríguez
+        - name: Jessy Andújar Cruz
           role: Software Engineering
-          image: ../../images/members/onelle_lugo.jpg
-          website: https://www.linkedin.com/in/onnellelugo/
+          image: ../../images/logos/ecglogo_ver.png
+          website: 
           alt:  
-        - name: Jorge L. Rivera González
-          role: Software Engineering and minor in Atmospheric Sciences and Meteorology
-          image: ../../images/members/jorge_rivera.jpg
-          website: https://www.linkedin.com/in/jorge-rivera-317b09170/
-          alt:  
-        - name: Fernando J. Sierra Aponte
+        - name: Alma D. Piñeiro Calero
           role: Software Engineering
-          image: ../../images/members/fernando_sierra.jpg
-          website: https://www.linkedin.com/in/fernandojsierra/
+          image: ../../images/logos/ecglogo_ver.png
+          website:
+          alt:  
+        - name: Jean Sánchez
+          role: Software Engineering
+          image: ../../images/logos/ecglogo_ver.png
+          website: 
+          alt:  
+        - name: Luis D. Valentín Bermúdez
+          role: Computer Science and Engineering
+          image: ../../images/logos/ecglogo_ver.png
+          website: 
           alt:  
         # - name: TBA
         #   image: 
@@ -207,13 +192,53 @@
           role: SWE @ E3 Consulting and MSc in Computer Science @ Georgia Institue of Technology
           website: 
           alt:  
-        - name: Christian Rodriguez
+        - name: Christian Rodríguez
           role:
           website: 
           alt: 
-        - name: Sebastian O. Espinosa-del-Rosario
-          role:
+        - name: Sebastian O. Espinosa del Rosario
+          role: BSc in Software Engineering (Class of 2025)
           website: 
+          alt:  
+        - name: Jacob M. Delgado López
+          role: PhD Student @ John Hopkins University, BSc in Computer Science and Engineering (Class of 2025)
+          website: https://jacobdelgado1002.github.io/
+          alt: NSF GRFP Fellow and Vivien Thomas PhD Scholar
+        - name: Andrea P. Seda Hernández
+          role: BSc in Software Engineering
+          website: http://linkedin.com/in/andrea-seda
+          alt:          
+        - name: Miguel Giboyeaux Camilo
+          role: BSc in Software Engineering
+          website: https://www.linkedin.com/in/miguel-giboyeaux-camilo/
+          alt:  
+        - name: Juan D. Guadalupe Rosado
+          role: BSc in Software Engineering
+          website: https://www.linkedin.com/in/juan-d-guadalupe-rosado-00774b250/
+          alt:
+        - name: Luis E. Fernández Ramírez
+          role: BSc in Computer Science and Engineering (Class of 2025)
+          website: https://www.linkedin.com/in/luis-fernandez-ramirez/
+          alt:  
+        - name: Carlos S. Hernández Alvarado
+          role: BSc in Software Engineering
+          website: https://www.linkedin.com/in/carloshernandez11/
+          alt:  
+        - name: Alexis M. Santiago Rivera
+          role: BSc in Software Engineering
+          website: https://www.linkedin.com/in/alexis-santiago-rivera/
+          alt:
+        - name: Onelle Lugo Rodríguez
+          role: BSc in Software Engineering
+          website: https://www.linkedin.com/in/onnellelugo/
+          alt:  
+        - name: Fernando J. Sierra Aponte
+          role: BSc in Software Engineering
+          website: https://www.linkedin.com/in/fernandojsierra/
+          alt:  
+        - name: Jorge L. Rivera González
+          role: BSc in Software Engineering and minor in Atmospheric Sciences and Meteorology
+          website: https://www.linkedin.com/in/jorge-rivera-317b09170/
           alt:  
 #    - name: PhD students
 #      full: False
