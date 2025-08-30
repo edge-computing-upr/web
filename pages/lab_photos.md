@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab Photos
+title: Lab Updates
 slim: true
 css:
   - "/index.css"
