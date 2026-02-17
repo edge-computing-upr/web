@@ -108,11 +108,6 @@
           image: ../../images/members/sebastian_cruz.jpg
           website: https://romerocruzsa.github.io/
           alt:  
-        - name: Ricardo A. Morell-Rodriguez
-          role: Computer Science and Engineering
-          image: ../../images/members/ricardo_morell.jpg
-          website: http://linkedin.com/in/ricardo-a-morell-7831921b8
-          alt:  
         - name: Taimara P. Colón López
           role: Software Engineering
           image: ../../images/members/taimara_colon.jpg
@@ -123,11 +118,6 @@
           # image: ../../images/members/alfredo_soto.jpg
           image: ../../images/logos/ecglogo_ver.png
           website: https://www.linkedin.com/in/alfredo-d-soto-velez/
-          alt:
-        - name: Gabriel Díaz Matos
-          role: 
-          image: ../../images/members/gabriel_diaz.jpg
-          website: 
           alt:  
         - name: Jessy Andújar Cruz
           role: Software Engineering
@@ -188,6 +178,14 @@
     - full: False
       name: Undergraduate students
       list:
+        - name: Ricardo A. Morell-Rodriguez
+          role: Computer Science and Engineering (Class of 2026)
+          website: http://linkedin.com/in/ricardo-a-morell-7831921b8
+          alt: 
+        - name: Gabriel Díaz Matos
+          role: BSc in Software Engineering (Class of 2026)
+          website: https://www.linkedin.com/in/gabriel-d%C3%ADaz-matos-37a787252/
+          alt: 
         - name: Kenniel Torres
           role: SWE @ E3 Consulting and MSc in Computer Science @ Georgia Institue of Technology
           website: 
