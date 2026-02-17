@@ -79,18 +79,18 @@
 #           coadvisor: 
 #           coadvisorweb: 
 #           alt: 
-# - name: Master's Students
-#   list:
-#     - full: true
-#       list:
-#         - name: 
-#           image: 
-#           website: 
-#           alt:  
-#         - name: 
-#           image: 
-#           website: 
-#           alt:  
+ - name: Master's Students
+   list:
+     - full: true
+       list:
+         - name: Juan Ayala Henao 
+           image: 
+           website: https://www.linkedin.com/in/juan-jos%C3%A9-ayala/
+           alt:  
+         - name: Anton Wallentin Delgado 
+           image: 
+           website: https://www.linkedin.com/in/anton-wallentin-delgado/
+           alt:  
 #         - name: 
 #           image: 
 #           website: 
