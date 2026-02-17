@@ -84,12 +84,14 @@
     - full: true
       list:
         - name: Juan Ayala Henao 
-          image: 
+          image: ../../images/members/juan_ayala.jpg
           website: https://www.linkedin.com/in/juan-jos%C3%A9-ayala/
+          role: Master of Science in Software Engineering
           alt:  
         - name: Anton Wallentin Delgado 
-          image: 
+          image: ../../images/logos/ecglogo_ver.png
           website: https://www.linkedin.com/in/anton-wallentin-delgado/
+          role: Master of Science in Software Engineering
           alt:  
 #         - name: 
 #           image: 
@@ -122,22 +124,22 @@
         - name: Jessy Andújar Cruz
           role: Software Engineering
           image: ../../images/members/jessy_andujar.jpg
-          website: 
+          website: https://www.linkedin.com/in/jessy-and%C3%BAjar-cruz-a85039243/
           alt:  
         - name: Alma D. Piñeiro Calero
           role: Software Engineering
           image: ../../images/members/alma_pineiro.jpg
-          website:
+          website: https://www.linkedin.com/in/alma-pi%C3%B1eiro-63979336a/
           alt:  
         - name: Jean Sánchez
           role: Software Engineering
-          image: ../../images/logos/ecglogo_ver.png
-          website: 
+          image: ../../images/logos/jean_sanchez.png
+          website: https://www.linkedin.com/in/jeanpi-sanchez/
           alt:  
         - name: Luis D. Valentín Bermúdez
           role: Computer Science and Engineering
           image: ../../images/logos/ecglogo_ver.png
-          website: 
+          website: https://www.linkedin.com/in/luis-vb/
           alt:  
         # - name: TBA
         #   image: 
