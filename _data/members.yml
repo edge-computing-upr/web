@@ -104,12 +104,12 @@
 - name: Undergraduate Students
   list:
     - full: true
-      list:
-        - name: Sebastián A. Cruz-Romero
-          role: Computer Science and Engineering
-          image: ../../images/members/sebastian_cruz.jpg
-          website: https://romerocruzsa.github.io/
-          alt:  
+      list: 
+        - name: Luis Luna Betancourt
+          role: Computer Engineering
+          image: ../../images/logos/ecglogo_ver.png
+          website: https://www.linkedin.com/in/luis-luna787/
+          alt:      
         - name: Taimara P. Colón López
           role: Software Engineering
           image: ../../images/members/taimara_colon.jpg
@@ -141,18 +141,25 @@
           image: ../../images/logos/ecglogo_ver.png
           website: https://www.linkedin.com/in/luis-vb/
           alt:  
+        - name: Shenied Maldonado Guerra
+          role: Software Engineering
+          image: ../../images/logos/ecglogo_ver.png
+          website: https://www.linkedin.com/in/sheniedmaldonado/
+          alt:  
+          
         # - name: TBA
         #   image: 
         #   website: 
         #   alt:   
-# - name: Collaborators
-#   list:
-#     - full: true
-#       list:
-#         - name: 
-#           image: 
-#           website: 
-#           alt:  
+- name: Collaborators
+  list:
+    - full: true
+      list:
+        - name: Sebastián A. Cruz-Romero
+          role: CEO & Co-Founder Capicú Technologies
+          image: ../../images/members/sebastian_cruz.jpg
+          website: https://capicu.ai/
+          alt: 
 #         - name: TBA
 #           image: 
 #           website: 
